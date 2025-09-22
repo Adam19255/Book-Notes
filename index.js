@@ -11,7 +11,6 @@ app.use(express.static("public"));
 app.get("/", async (req, res) => {
   res.render("index.ejs");
 });
-test;
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
